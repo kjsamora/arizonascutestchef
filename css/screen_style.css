@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "ArizonasCutestChef";
+  src: url("../fonts/ArizonasCutestChef-Regular.otf");
+  src: url("../fonts/ArizonasCutestChef-Regular.ttf"); }
 /*========================================
 Reset
 ========================================*/
@@ -11,17 +15,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-  font-family: courier;
+  font-family: ArizonasCutestChef;
   font-size: 16px; }
   body .container {
-    max-width: 960px;
-    min-width: 800px;
-    margin: 30px auto;
-    background: url(../images/mainbody.jpg) no-repeat center center;
+    background: url(../images/mainbody.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+    max-width: 960px;
+    min-width: 800px;
+    margin: 30px auto;
     border-radius: 20px; }
 
 h1 {
@@ -39,7 +44,8 @@ p {
   margin: 0 0 .75em 0; }
 
 a {
-  color: #0f0f0f; }
+  color: #0f0f0f;
+  text-decoration: none; }
 
 a:hover {
   color: violet; }
@@ -61,58 +67,31 @@ header > .container {
   background-color: rgba(0, 225, 0, 0.3); }
 
 .logo {
-  background: url(../images/title.png) no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   grid-column: 1/-1;
   grid-row: 1; }
 
 .nav_1 {
-  background: url(../images/nav_btn1.png) no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   grid-row: 2;
   grid-column: 2; }
 
 .nav_2 {
-  background: url(../images/nav_btn2.png) no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   grid-row: 2;
   grid-column: 3; }
 
 .nav_3 {
-  background: url(../images/nav_btn3.png) no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   grid-row: 2;
   grid-column: 4; }
 
 .nav_4 {
-  background: url(../images/nav_btn4.png) no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   grid-row: 2;
   grid-column: 5; }
 
 .nav_5 {
-  background: url(../images/nav_btn1.png) no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   grid-row: 2;
   grid-column: 6; }
+
+.null {
+  height: 160px; }
 
 content {
   clear: both; }

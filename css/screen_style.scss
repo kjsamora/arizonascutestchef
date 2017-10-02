@@ -1,6 +1,11 @@
 $placecard: rgba(0, 225, 0, .3);
 $placecard2: rgba(0,0,225,.3);
 $headline: rgba(15,15,15,1);
+@font-face {
+  font-family: "ArizonasCutestChef";
+  src: url("../fonts/ArizonasCutestChef-Regular.otf");
+  src: url("../fonts/ArizonasCutestChef-Regular.ttf");
+}
 /*========================================
 Reset
 ========================================*/
@@ -18,9 +23,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-  font-family: courier;
+  font-family: ArizonasCutestChef;
   font-size: 16px;
   .container {
+    background: url(../images/mainbody.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
     max-width: 960px;
     min-width: 800px;
     margin: 30px auto;
