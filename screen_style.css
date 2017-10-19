@@ -4,6 +4,9 @@ Reset
 /*========================================
 Body
 ========================================*/
+* {
+  border: 1px dashed black;
+}
 body {
   background: url(../images/bodyimage.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
