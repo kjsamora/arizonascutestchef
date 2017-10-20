@@ -33,43 +33,94 @@ body {
   background-size: cover;
   text-align: center;
   font-family: courier;
-  font-size: 16px;
-  /*====================================
-  Footer
-  ====================================*/ }
-  body .header {
-    background: url(../images/mainbody.jpg) center bottom;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 980px;
-    height: 125px;
-    margin: 0px auto;
-    border-radius: 20px; }
-  body .layout {
-    background: url(../images/mainbody.jpg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 940px;
-    min-width: 800px;
-    height: 800px;
-    margin: 30px auto;
-    border-radius: 20px; }
-  body .footer {
-    background: url(../images/mainbody.jpg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 980px;
+  font-size: 16px; }
+
+.header {
+  background: url(../images/mainbody.jpg) center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 980px;
+  height: 125px;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
+  .header .nav {
     height: 100px;
-    margin: 0px auto;
-    border-radius: 20px; }
+    position: relative;
+    top: 40px; }
+    .header .nav .nav_home {
+      background: url(../images/nav_btn1.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+    .header .nav .nav_comedy {
+      background: url(../images/nav_btn2.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit;
+      top: 10px; }
+    .header .nav .nav_art {
+      background: url(../images/nav_btn3.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+    .header .nav .nav_games {
+      background: url(../images/nav_btn4.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+    .header .nav .nav_about {
+      background: url(../images/nav_btn1.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+
+.layout {
+  background: url(../images/mainbody.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 940px;
+  min-width: 800px;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
+
+/*====================================
+Footer
+====================================*/
+.footer {
+  background: url(../images/mainbody.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 980px;
+  height: 100px;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
 
 /*# sourceMappingURL=screen_style.css.map */
