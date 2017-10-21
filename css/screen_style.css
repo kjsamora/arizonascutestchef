@@ -19,9 +19,6 @@ a:hover {
   color: violet; }
 
 /*========================================
-Reset
-========================================*/
-/*========================================
 Body
 ========================================*/
 body {
@@ -44,7 +41,7 @@ body {
   background-size: cover;
   max-width: 980px;
   height: 125px;
-  margin: 0px auto;
+  margin: 20px auto;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
   .header .nav {
@@ -84,14 +81,6 @@ body {
       -o-background-size: contain;
       background-size: contain;
       height: inherit; }
-    .header .nav .nav_about {
-      background: url(../images/nav_btn1.png) no-repeat center bottom;
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -ms-background-size: contain;
-      -o-background-size: contain;
-      background-size: contain;
-      height: inherit; }
 
 .layout {
   background: url(../images/mainbody.jpg) center center;
@@ -108,8 +97,8 @@ body {
   box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
 
 /*====================================
-Footer
-====================================*/
+  Footer
+  ====================================*/
 .footer {
   background: url(../images/mainbody.jpg) center center;
   -webkit-background-size: cover;
@@ -122,5 +111,3 @@ Footer
   margin: 0px auto;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
-
-/*# sourceMappingURL=screen_style.css.map */
