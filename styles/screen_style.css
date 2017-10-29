@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Retro";
+  src: url(fonts/Retro-Regular.otf); }
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+  color: #0f0f0f; }
+
+h2 {
+  font-size: 1.7em; }
+
+h3 {
+  font-size: 1.5em; }
+
+p {
+  margin: 0 0 .75em 0; }
+
+a {
+  color: #0f0f0f; }
+
+a:hover {
+  color: violet; }
+
+/*========================================
+Body
+========================================*/
+body {
+  background: url(../images/bodyimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: courier;
+  font-size: 16px; }
+
+.header {
+  background: url(../images/mainbody.jpg) center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 980px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
+  .header .title h1 {
+    font-family: retro;
+    color: #FF4466; }
+  .header .nav {
+    height: 100px;
+    position: relative; }
+    .header .nav .nav_home {
+      background: url(../images/nav_btn1.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+    .header .nav .nav_comedy {
+      background: url(../images/nav_btn2.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit;
+      top: 10px; }
+    .header .nav .nav_art {
+      background: url(../images/nav_btn3.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+    .header .nav .nav_games {
+      background: url(../images/nav_btn4.png) no-repeat center bottom;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -ms-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      height: inherit; }
+
+.layout {
+  background: url(../images/mainbody.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 940px;
+  min-width: 800px;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
+
+/*====================================
+Footer
+====================================*/
+.footer {
+  background: url(../images/mainbody.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 980px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3); }
+  .footer .row {
+    line-height: 100px; }
+    .footer .row .fa {
+      color: #1ce;
+      font-size: 30px; }
+      .footer .row .fa:hover {
+        color: pink;
+        transform: scale(1.5);
+        transition: 2s; }
+
+/*# sourceMappingURL=screen_style.css.map */

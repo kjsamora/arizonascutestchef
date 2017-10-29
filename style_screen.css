@@ -1,0 +1,60 @@
+/*
+Error: Invalid CSS after "      line-height:": expected expression (e.g. 1px, bold), was "}"
+        on line 91 of sass/screen_style.scss
+
+86:     margin-bottom: 20px;
+87:     border-radius: 20px; 
+88:     box-shadow: 5px 5px 5px 5px rgba(15,15,15,.3);
+89:     .row {
+90:       line-height: 
+91:     }
+92:   }
+
+Backtrace:
+sass/screen_style.scss:91
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/script/lexer.rb:229:in `expected!'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/script/parser.rb:710:in `assert_expr'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/script/parser.rb:75:in `parse'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:1063:in `sass_script'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:909:in `value!'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:778:in `block in try_declaration'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `call'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `rethrow'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:791:in `try_declaration'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/plugin.rb:109:in `method_missing'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/bin/sass:23:in `load'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/bin/sass:23:in `<main>'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/Users/kj_samora/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"      line-height:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 91 of sass/screen_style.scss\A \A 86:     margin-bottom: 20px;\A 87:     border-radius: 20px; \A 88:     box-shadow: 5px 5px 5px 5px rgba(15,15,15,.3);\A 89:     .row {\A 90:       line-height: \A 91:     }\A 92:   }"; }
